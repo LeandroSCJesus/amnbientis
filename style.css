@@ -1,0 +1,82 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+
+  /* .- Cor da fonte */
+  color: #7D7987;
+
+  /* .- Alinhamento de textos */
+  text-align: center;
+  /* >-> Também é possível alinhar outros elementos que não estejam especificos dentro de "caixas (divs)" */
+
+  margin: 0;
+}
+/* ;) Hero */
+#hero {
+  width: 592px;
+  margin: 0 auto 72px;
+  /* >->O `marign: auto` mantém todo conteúdo do #hero alinhado ao centro da página */
+}
+#hero #img{
+  /* Espaçamento entre os elementos */
+  margin-bottom: 72px;
+  /* >-> (Na altura, na parte de baixo) */
+}
+h1{
+  font-family: "Inter", sans-serif;
+  font-size: 49px;
+  font-weight: 400;
+ 
+  /* Altura da Linha */
+  line-height: 56px;
+
+  color: #000;
+
+  margin-bottom: 32px;
+}
+
+h1 span{
+  font-weight: 200;
+  color: #7D7987;
+}
+
+h1 span, span, a {
+  color: #FF9900;
+}
+
+p, #footer {
+  /* Altura da Linha */
+  line-height: 28px;
+  
+}
+
+/* ;) Footer */
+
+#footer{
+  margin-bottom: 16px;
+}
+
+/* .- Instrução
+ :) Pegar um "a" que tem anterior a ele um "a" e dê um espaço
+*/
+#footer a + a {
+  margin-left: 28px;
+  
+}
+
+#line{
+  width: 568px;
+  height: 0px;
+  border: 1px #ECEFF2 solid;
+
+  margin: 0 auto 8px;
+}
+
+/* ;) Balls */
+
+#balls{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
